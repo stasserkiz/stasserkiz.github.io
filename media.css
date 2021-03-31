@@ -1,0 +1,213 @@
+@media only screen and (max-width: 1200px) {
+
+	.main__menu {
+	
+		display: flex;
+		justify-content: center;
+	}
+
+	.menu {
+		width: 75%;
+	}
+	.footer {
+		margin-left: 0px;
+	}
+
+	.footer .black { 
+		margin:0px;
+	 }
+
+	.inf h2{
+		font-size: 30px;
+
+	}
+
+	.inf p{
+		font-size: 10px;
+		
+
+	}
+	.text1 a {
+		margin-top: 25px;
+	}
+	.inf .video {
+		margin:0;
+	}
+
+	.video {
+		margin-top: 50px;
+	}
+
+	.video img {
+		margin-top: 50px;
+		margin-left: 110px;
+		width: 300px;
+		height: 240px;
+	}
+
+	.text2 {
+		    margin-right: 120px
+	}
+
+	.text2 p1 {
+	    font-size: 38px;
+	    font-family: Mariad Pro;
+	}
+
+	.text2 p2 {
+    font-size: 13px;
+    font-family: Myriad Pro;
+    margin-top: 20px;
+    margin-bottom: 70px;
+	}
+
+	.settings p1 {
+		font-size: 13px;
+	}
+
+	.diamond p1{
+		font-size: 13px;
+	}
+
+	.row_text__text p1{
+		font-size: 13px;
+	}
+	.row2_text2 p1{
+		font-size: 13px;
+	}
+
+	.menu2 li {
+		margin-right: 41px;
+		font-size: 17px;
+	}
+
+	.pict {
+		display: list-item;
+		list-style-type: none;
+		text-align: center;
+	}
+	.big {
+		margin:0;
+	}
+
+	.first p {
+		font-size: 25px;
+	}
+
+
+	.first p1 {
+		font-size: 13px;
+
+	}
+
+	.golovna {
+		flex-direction: column;
+	}
+
+	.golovna__big {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.team {
+		padding-top: 50px;
+		border-top: 1px solid grey;
+	}
+
+	.meet2 {
+		display: flex;
+    	justify-content: center;
+	}
+
+	.meet2 {
+		text-align: center;
+	}
+	.meet2 img {
+    margin-right: 36px;
+    margin-top: 45px;
+}
+	
+	.footer__text span {
+		margin-left: 45%;
+	}
+	.footer__text {
+		flex-direction: column;
+		text-align: center;
+	}
+	#reg_3col {
+    background-color: e5e5e5;
+    padding: 66px 105px;
+}
+
+	.register_big{
+		text-align: center;
+		padding-top: 20px;
+	}
+	#reg_1col {
+	margin-bottom: 20px;
+    margin-right: 0;
+   }
+
+   .register_main {
+   	text-align: center;
+   }
+
+   .send {
+   	width: 40%;
+   	display: flex;
+   	margin-top: 30px;
+   	margin-left: 200px;
+   }
+
+  
+.dno_first{
+	margin:0;
+}
+.dno_second {
+	margin:0;
+	display: inline;
+}
+.tog {
+	padding-bottom: 40px;
+}
+.register_main {
+	margin-right: 81px;
+}
+
+#reg_3col {
+    margin-top: 49px;
+    
+}
+
+
+@media only screen and (max-width: 992px) {
+ 
+ 	body {
+ 		max-width: 992px;
+ 	}
+	
+	.menu {
+		width: 100%;
+	}
+
+	.first {
+		    margin-left: 75px;
+	}
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	
+}
+
+@media only screen and (max-width: 480px) {
+
+	
+}
+
+
+@media only screen and (max-width: 320px) {
+
+	
+}

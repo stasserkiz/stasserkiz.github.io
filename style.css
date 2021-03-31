@@ -1,0 +1,507 @@
+
+body {
+    background-color: white;
+    margin: 0;
+    
+    
+
+}
+
+.main {
+	background-color: f6f2f2;
+	padding:25px; 
+}
+
+.menu {
+	background-color:black;
+	clear:both;
+	height:55px;
+	display:flex;
+	justify-content: center;
+}
+
+
+.menu a{
+	list-style-type:none;
+	text-decoration: none;
+	color:white;
+	padding: 0 25px;
+	line-height: 55px;
+}
+.menu a:hover{
+	background-color:red;
+}
+
+.inf {
+	display:flex;
+	justify-content: center;
+
+}
+
+.inf .video {
+	margin-left: 400px;
+	margin-top: 70px;
+
+}
+
+.text {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+
+
+}
+
+.text1{
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+
+
+.text1 h2 {
+	font-size: 60px;
+	font-family: Myriad Pro;
+
+}
+
+.text1 p {
+	font-size: 16px;
+	font-family: Myriad Pro;
+	
+
+}
+
+.text1 a{
+	text-decoration: none;
+	color:white;
+	margin-top: 50px;
+	margin-bottom: 70px;	
+	background-color:red;
+	padding: 11px;
+	border-radius:5px;
+	text-align: center;
+	max-width: 45% ;
+
+		
+}
+
+
+}
+.main2 {
+	background-color: white;
+	
+}
+
+.main2 .container {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	border-bottom: 1px solid grey; 
+}
+
+.text2 {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+
+
+.space {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+
+
+.text2 p1 {
+	font-size: 46px;
+	font-family: Mariad Pro;
+}
+
+.text2 p2 {
+	font-size: 16px;
+	font-family: Myriad Pro;
+	margin-top: 25px;
+	margin-bottom: 70px;
+
+
+}
+
+.text2 a {
+	margin-top: 40px;
+} 
+
+
+.text2 p3 {
+	color: #ff0000;
+	border: 1px solid #ff0000;
+	border-radius: 3px;
+	padding: 9px 36px;
+
+
+	}
+
+.row1 {
+	display: flex;
+	justify-content: center;
+}
+.row_space {
+	display: flex;
+	justify-content: center;
+}
+
+.text__text{
+	margin-bottom: 150px;
+}
+.col1 {
+	flex-direction: column;
+	margin-right: 80px;
+}
+
+.row2 {
+	flex-direction: column;
+}
+
+
+.settings{
+	margin-bottom: 40px;
+}
+.row_text__text{
+	margin-bottom: 40px;
+}
+
+.row1 {
+	margin-right: 25px;
+}
+
+.three .container {
+	padding-top: 50px;
+}
+.products { 
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items:center;
+ }
+
+ .products p { 
+font-size: 44px;
+font-family: 'Mariad Pro';
+  }
+.products p1 {
+	font-size: 16px;
+	font-family: 'Mariad Pro';
+}
+
+.products span {
+	display:block;
+	width:7%;
+	height:2px;
+	align-items:center;
+	background-color:red;
+	margin-top:30px;
+
+}
+
+.menu2 {
+	text-align: center;
+	padding: 80px;
+	transition: 0.2s;
+}
+.menu2 li {
+	display: inline;
+	margin-right: 65px;
+	font-size: 22px;
+	font-family: 'Mariad Pro';
+	
+}
+
+.menu2 a {
+list-style-type: none;
+}
+
+.menu2 li:hover {
+	color:red;
+	transition: 0.2s;
+}
+
+.pict img {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.meet {
+	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
+}
+
+.meet p {
+	font-family: "Mariad Pro";
+	font-size:42px;
+}
+.meet p1 {
+	font-family: "Mariad Pro";
+	font-size:16px;
+}
+.team span {
+	display:block;
+	width:13%;
+	height:2px;
+	align-items:left;
+	background-color:red;
+	margin-top:30px;
+	margin-bottom: 50px;
+}
+
+
+
+.first p{
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-family: 'Mariad Pro';
+}
+
+.first p1{
+	font-size: 16px;
+}
+
+.golovna {
+display: flex;
+justify-content: flex-start;
+	
+}
+
+.big {
+	margin-right: 80px;
+}
+
+
+.face ul {
+	margin-top:50px;
+	display: flex;
+	justify-content: flex-start;
+	width: 20%;
+	padding-left:0;
+}
+.face li {
+	margin-right: 20px;
+	list-style-type: none;
+	font-family: 'Mariad Pro';
+
+}
+
+.meet2 {
+	display: inline;
+
+
+}
+
+.meet2 img {
+	margin-right: 15px;
+	margin-top: 45px;
+}
+
+.subscribe {
+	background-color: f5f0dd;
+	margin-top: 100px;
+
+	
+}
+
+.pow-text {
+	padding-top: 150px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.subscribe p{
+	color:white;
+	font-size: 42px;
+	font-family: "Mariad Pro";
+}
+
+.bot p1{
+	color:white;
+	font-size: 16px;
+	font-family: "Mariad Pro";
+}
+
+.call {
+	display: flex;
+	justify-content: center;
+	margin-top: 150px;
+
+}
+
+#adress2 {
+	padding: 10px 140px;
+	margin-right: 25px;
+	
+}
+
+
+
+.bot p{
+	background-color: red;
+	font-size: 18px;
+	padding: 12px 40px;
+	font-size: 14px;
+	margin-bottom: 100px;
+
+}
+
+
+.register_main p {
+	border-radius: 1px red;
+}
+
+.register_main p {
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 12 0;
+    background-color:red;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    width:97%;
+    }
+.footer {
+	background-color: white;
+	margin:0;
+
+}
+
+.footer__text {
+	margin-left: 70px;
+}
+
+.footer__text p {
+	font-family: "Mariad Pro";
+	font-size:42px;
+	margin-top: 100px;
+}
+.footer__text p1 {
+	font-family: "Mariad Pro";
+	font-size:16px;
+}
+.footer__text span {
+	display:block;
+	width:11%;
+	height:2px;
+	
+	background-color:red;
+	margin-top:30px;
+	margin-bottom: 50px;
+}
+
+
+#reg_1col {
+	border-radius: 3px;
+	margin-right: 40px;
+	margin-bottom: 50px;
+	background-color: e5e5e5;
+	text-align: center;
+	padding: 10 70;
+}
+
+#reg_2col {
+	border-radius: 3px;
+	background-color: e5e5e5;
+	text-align: center;
+	padding: 10 70;
+}
+
+.register_big {
+	
+	border-radius: 3px;
+}
+
+
+
+.register_main {
+	    width: 38%;
+}
+#reg_3col {
+	background-color: e5e5e5;
+	padding: 100 250;
+	border-radius: 3px;
+}
+.tog {
+	display: flex;
+	justify-content: center;
+}
+
+.send p{
+	background-color: red;
+	font-size: 18px;
+	padding: 12px 40px;
+	font-size: 14px;
+	margin-bottom: 100px;
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+
+}
+
+.black {
+	margin-bottom: 90px;
+	background-color: 2d2d2d;
+	margin-left: 100px;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+.black p {
+	color:white;
+	margin-left: 60px;
+	margin-top:110px;
+}
+
+.black p1 {
+	color:white;
+	margin-left: 60px;
+	
+}
+
+.black p2 {
+	color:white;
+	margin-left: 60px;
+	margin-top: 30px;
+	
+}
+.black p3 {
+	color:white;
+	margin-left: 60px;
+	margin-top: 30px;
+	margin-bottom: 95px;
+}
+
+.dmutro {
+	background-color: black;
+	padding:2%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.dno_first {
+	margin-left: 270px;
+	color: grey;
+}
+
+.dno_second {
+margin-right: 150px;
+}
+
+.dno_second img {
+	margin-left: 30px;
+}
