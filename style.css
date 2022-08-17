@@ -1,0 +1,304 @@
+header {
+	max-height: 100%;
+	margin: auto;
+	padding: auto;
+}
+body {
+	background-color: black;
+	overflow-x: hidden;
+}
+
+footer {
+	background-color: white;
+}
+
+.menu {
+	background-color: white;
+	padding: 1% 0 1% 0;
+	max-width: 100%;
+}
+
+.menu__left img {
+	width: 150px;
+	height: 120px;
+}
+.menu__right ul > li img {
+	width: 30px;
+	height: 20px;
+	margin-right: 7%;
+
+}
+.menu__right ul > li {
+display: flex;
+justify-content: center;
+}
+
+.menu__main {
+	display: flex;
+	justify-content: center;
+}
+
+.menu__left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 55%;
+}
+
+.menu__right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu__right ul {
+	width: 157px;
+}
+.menu__right ul li {
+	display: block;
+}
+ 
+.menu__right ul li {
+	padding-top: 10%;
+	list-style-type: none;
+
+}
+.menu__right ul li a {
+	text-decoration: none;
+	color: black;
+	
+}
+
+.together {
+	display: block;
+	text-align: center;
+	padding-top: 3%;
+
+}
+
+.men_girl ul {
+	display: flex;
+	justify-content: center;
+}
+.men_girl ul li {
+	text-decoration: none;
+	list-style-type: none;
+	display: flex; 
+	
+}
+
+.men_girl ul li img {
+	width: 300px;
+	height: 440px;
+}
+.men_girl ul li {
+	display: block;
+	margin-right: 4%;
+}
+
+.men_girl ul li a {
+	text-decoration: none;
+}
+.men_girl ul li p {
+	color: white;
+}
+.choice p {
+	color: white;
+}
+
+.foot_end {
+	display: flex;
+	justify-content: center;
+}
+
+.foot_end { 
+padding: 3% ;
+}
+
+.strong {
+	margin-left: 20%;
+}
+
+.strong:first-child {
+	margin-left: 0;
+}
+
+.str1  {
+
+text-align: center;
+}
+
+.catalog {
+	margin-top: 5%;
+}
+
+.catalog ul a {
+	text-decoration: none;
+	color: black;
+}
+
+.for__him {
+	display: block;
+	text-align: center;
+}
+
+
+.him__category ul li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.him p {
+	color: white;
+	font-size: 48px;
+	margin:4% 0 6% 0 ;
+	text-align: center;
+}
+.him__category ul li a {
+	text-decoration: none;
+	list-style-type: none;
+	color: white;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-wrapper {
+	margin-bottom: 5%;
+}
+
+.swiper-slide {
+text-align: center;
+font-size: 18px;
+background: #fff;
+
+/* Center slide text vertically */
+display: -webkit-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+-webkit-justify-content: center;
+justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
+}
+
+.swiper-slide img {
+display: block;
+max-width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.him__category ul {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	
+
+}
+
+
+.him__category ul li {
+	margin-left: 6%;
+
+}
+.main {
+	padding: 10% 0 10% 0;
+}
+
+.type ul{ 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+ }
+ .type ul li {
+ 	margin-left: 3%;
+ }
+
+.type ul li a  {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+.type ul li a:hover {
+	color: red;
+}
+.type ul li img {
+	width: 300px;
+	height: 300px;
+}
+.cat p {
+	font-size: 48px	;
+	text-align: center;
+	color: white;
+}
+
+.cat {
+	display: flex;
+	justify-content:center;
+}
+
+.him__category ul li a:hover { 
+color:red;
+}
+
+.type__shirt ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+	}
+
+
+.type__shirt ul li img {
+	width: 300px;
+	height: 300px;
+} 
+
+.type__shirt ul li a {
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+ .type__shirt ul li {
+ 	margin: 3%;
+ }
+
+ .type__shirt ul li a:hover {
+ 	color: red;	
+ }
+
+  .type__shirt ul li img {
+  	margin-bottom: 5%
+  }
+
+  .shirt p {
+  	color: white;
+  	display: flex;
+  	justify-content: center;
+  	margin-top: 7%;
+  	font-size: 47px;
+  }
+
+  .type__shirt ul li p {
+  	text-align: center;
+  	color: white;
+  }
+
+@media (max-width 767px) {
+	
+}
